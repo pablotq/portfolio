@@ -8,9 +8,9 @@
     color: var(--cor-branca);
     border: 2px solid var(--cor-branca);
     border-radius: 50%;
-    width: 65px;
-    height: 65px;
-    line-height: 55px;
+    width: 75px;
+    height: 75px;
+    line-height: 65px;
     text-align: center;
     text-decoration: underline;
     transition: 0.2s;
