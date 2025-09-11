@@ -9,7 +9,7 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+  background-color: var(--cor-fundo-medio);
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
