@@ -10,7 +10,7 @@
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
     color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
+    background-color: var(--cor-fundo-claro);
     border-radius: 50%;
     width: 75px;
     height: 75px;
@@ -22,7 +22,6 @@
 
 .header a:hover .logo {
     color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
 }
 
 .header nav ul {

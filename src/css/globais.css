@@ -32,6 +32,46 @@ html {
     align-items: center;
   }
 
+  
+.animado {
+    position: relative;
+}
+
+@property --angle {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+.animado::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), var(--cor-primaria), var(--cor-secundaria), var(--cor-primaria), var(--cor-secundaria), var(--cor-primaria));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 50%;
+    animation: 3s spin linear infinite;
+}
+
+.animado::before {
+    opacity: 0.5;
+}
+
+@keyframes spin {
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
+}
+
+
   .redes-sociais a {
     display: inline-block;
     width: 40px;
@@ -54,6 +94,10 @@ html {
   
   .outer-shadow {
     box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+  }
+
+  .redes-sociais .outer-shadow {
+    box-shadow: 3px 3px var(--cor-primaria), -3px -3px 3px var(--cor-secundaria);
   }
   
   .inner-shadow {
