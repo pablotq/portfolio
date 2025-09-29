@@ -42,3 +42,13 @@
 .habilidades .container-habilidades .informacoes .logo i {
     font-size: 8rem;
 }
+
+.logo .n8n{
+    background-color: var(--cor-branca);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.logo .n8n:hover{
+    background-color: var(--cor-primaria);
+}
