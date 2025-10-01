@@ -49,12 +49,13 @@ html {
     height: 100%;
     width: 100%;
     background-image: conic-gradient(from var(--angle), var(--cor-primaria), var(--cor-secundaria), var(--cor-primaria), var(--cor-secundaria), var(--cor-primaria));
+    background-clip: padding-box;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
     z-index: -1;
     padding: 3px;
-    border-radius: 50%;
+    border-radius: 50px;
     animation: 3s spin linear infinite;
 }
 
