@@ -58,6 +58,10 @@
     justify-content: space-evenly;
 }
 
+.hidden{
+    display: none;
+}
+
 @media(max-width: 525px) {
     .modal-content .modal-body .modal-image {
         max-height: 350px;
