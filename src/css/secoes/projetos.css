@@ -19,6 +19,7 @@
     -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
     position: relative;            
+    cursor: pointer;
 }
 
 .projetos .container-projetos .projeto:hover,
