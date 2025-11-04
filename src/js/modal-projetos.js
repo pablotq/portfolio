@@ -54,7 +54,7 @@ document.querySelectorAll('.projeto').forEach(projeto => {
     modalImg.src = projetoData.imagem;
     modalImg.alt = projetoData.titulo;
     modalInfo.innerHTML = `
-      <p>${projetoData.descricao}</p>
+      <p class= 'modal-descricao'>${projetoData.descricao}</p>
       <p><strong>Tecnologias:</strong> ${projetoData.tecnologias.join(', ')}</p>
       <p>${projetoData.detalhes}</p>
     `;
