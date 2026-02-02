@@ -35,6 +35,33 @@ const projetos = {
     detalhes: "Esse projeto foi desenvolvido no início do meu curso com objetivo de aprender responsividade.",
     github: "https://github.com/pablotq/projeto-dbz"
   },
+  ghibliFilms: {
+    titulo: "Ghibli Films",
+    imagem: "src/imagens/ghibli.jpg",
+    descricao: "Este projeto é um catálogo interativo dos filmes do Studio Ghibli. A aplicação consome dados de uma API externa e apresenta os filmes em cards elegantes com detalhes individualizados.",
+    link: "https://ghibli-films-nine.vercel.app/",
+    tecnologias: ["React", "TypeScript", "Tailwind CSS" , "React Router", "Studio Ghibli API"],
+    detalhes: "Esse projeto foi desenvolvido para ser um SPA (Single Page Application) com renderização dinãmica das paginas de detalhes dos filmes.",
+    github: "https://github.com/pablotq/ghibli-films"
+  },
+  syntaxWear: {
+    titulo: "SyntaxWear",
+    imagem: "src/imagens/syntaxWear.jpg",
+    descricao: "Este projeto é um frontend completo de uma loja online de tênis com páginas de produto, listagem, carrinho, autenticação básica e formulários.",
+    link: "https://syntax-wear-app-sigma.vercel.app",
+    tecnologias: ["React", "TypeScript", "Tailwind CSS"],
+    detalhes: "Esse projeto foi desenvolvido com React e TypeScript, empacotado por Vite, estilização com Tailwind CSS, formulários com react-hook-form + Zod (+ @hookform/resolvers) e roteamento com @tanstack/react-router.",
+    github: "https://github.com/pablotq/syntax-wear-app"
+  },
+  todoList: {
+    titulo: "Todo List - Lista de tarefas",
+    imagem: "src/imagens/todo-list.jpg",
+    descricao: "Este projeto é uma lista de tarefas simples.",
+    link: "https://todolist-app-one-xi.vercel.app",
+    tecnologias: ["React", "TypeScript", "Tailwind CSS"],
+    detalhes: "Esse projeto foi desenvolvido usando Context API para definir os temas, salvando o tema e lista no armazenamento local, e usando hook personalizado para as funções da lista",
+    github: "https://github.com/pablotq/todolist-app"
+  },
   // Adicione mais projetos aqui
 };
 
