@@ -59,7 +59,7 @@ const projetos = {
     descricao: "Este projeto é uma lista de tarefas simples.",
     link: "https://todolist-app-one-xi.vercel.app",
     tecnologias: ["React", "TypeScript", "Tailwind CSS"],
-    detalhes: "Esse projeto foi desenvolvido usando Context API para definir os temas, salvando o tema e lista no armazenamento local, e usando hook personalizado para as funções da lista",
+    detalhes: "Esse projeto foi desenvolvido usando Context API para definir os temas, salvando o tema e lista no armazenamento local, e usando hook personalizado para as funções da lista de tarefas",
     github: "https://github.com/pablotq/todolist-app"
   },
   // Adicione mais projetos aqui
